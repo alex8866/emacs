@@ -1,0 +1,128 @@
+ls
+cd ..
+ls
+cd ..
+cd ..
+cd ..
+cd ..
+ks
+ls
+cd backends/
+ls
+cd libvirt/
+cd ..
+cd libguestfs/
+ls
+cd tests/
+ls
+mv guestfish_augeas.py ../../../test-providers.d/
+cd ../../../test-providers.d/
+ls
+mv guestfish_augeas.py downloads/io-github-autotest-libvirt/
+cd downloads/io-github-autotest-libvirt/
+ls
+mv guestfish_augeas.py libguestfs/
+rm -rf ~/WorkSpace/dev-github/virt-test/backends/libguestfs/tests/
+ls
+cd libguestfs/
+ls
+mv guestfish_augeas.py tests/
+ls
+cd tests/
+ls
+ls
+cd 
+ls
+cd ORG
+ls
+cd 
+ls
+cd bin/
+cp ub ua
+cd 
+cd virt-test/
+ls
+cd 
+cd WorkSpace/dev-github/virt-test/
+ls
+ls
+rm -f cscope.out 
+cscope -b -i cscope.files 
+ls
+ls
+cd 
+ls
+cd WorkSpace/dev-github/virt-test/
+ls
+cd test-providers.d/downloads/io-github-autotest-libvirt/libguestfs/
+ls
+cd tests/
+ls
+ls
+cd 
+ls
+cd WorkSpace/dev-github/
+ls
+cd virt-test/
+ls
+cd test-providers.d/downloads/io-github-autotest-libvirt/libguestfs/
+ls
+cd tests/
+ls
+ls
+ls
+ls
+ls
+cd 
+ls
+cd virt-test/
+ls
+cd cd 
+cd 
+cd WorkSpace/dev-github/
+ls
+cd virt-test/
+ls
+cd 
+cd ORG/
+ls
+ls
+cd 
+ls
+ls
+cd WorkSpace/dev-github/
+ls
+ls
+cd virt-test/test-providers.d/downloads/
+ls
+cd io-github-autotest-libvirt/
+ls
+cd libguestfs/
+ls
+cd tests/
+ls
+ls
+pwd
+ls
+cp guestfs_augeas.py /tmp/
+cp cfg/guestfs_augeas.cfg /tmp/
+ls
+cd 
+ls
+ls
+ls
+ls
+ls
+ls
+ls
+cd 
+ls
+ls
+ls
+ls
+ls
+ls
+ls
+ls
+ls
+ls

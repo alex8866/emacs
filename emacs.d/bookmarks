@@ -1,0 +1,25 @@
+;;;; Emacs Bookmark Format Version 1 ;;;;
+;;; This format is meant to be slightly human-readable;
+;;; nevertheless, you probably don't want to edit it.
+;;; -*- End Of Bookmark File Format Version Stamp -*-
+(("1"
+ (filename . "~/WorkSpace/dev-github/virt-test/run")
+ (front-context-string . "ian_config.Parse")
+ (rear-context-string . "_parser = cartes")
+ (position . 36895))
+("org-capture-last-stored-marker"
+ (filename . "~/Org-mode/refile.org")
+ (front-context-string . "** lililili					")
+ (rear-context-string . "\n* agc\nadf\nadsf\n")
+ (position . 5571))
+("org-capture-last-stored"
+ (filename . "~/Org-mode/todo.org")
+ (front-context-string . "* TODO learn RAI")
+ (rear-context-string . "13:31] =>  0:00\n")
+ (position . 7500))
+("org-refile-last-stored"
+ (filename . "~/Org-mode/refile.org")
+ (front-context-string . "** lililili					")
+ (rear-context-string . "\n* agc\nadf\nadsf\n")
+ (position . 5571))
+)
