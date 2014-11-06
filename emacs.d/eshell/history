@@ -1,128 +1,128 @@
+grep -R virt-log *
+pwd
+grep -R virt-cat_m *
+grep -R cpio-out *
+grep -R "is unprivileged" *
+grep -R "virt-builder_install" *
+grep -R "virt-cus" *
+grep -R virt_log *
+grep -R virt-log *
+grep -R virt-cat *
+grep -R virt-build *
+grep -R "virt-build" *
 ls
-cd /home/lkong/WorkSpace/RH/virt-qe-IEEE_Test_Plans/7-1/markdown/10-Test_design
-ls
-ls
-ls
-ls
-rm -f ./Documents/Class/mysql/mysql-5.6.4-m7-linux2.6-x86_64.tar.gz
-cd 
-b
-rm -f ./Documents/ALL/RSYNC/2/Downloads/Downloads/mysql-5.6.4-m7-linux2.6-x86_64.tar.gz
-ls
-cd ORG
-cd ORG/
-ls
-cd ORG/
-ls
-cd ORG/
-ls
-ls
-cd ORG/
-cd ORG/
-ls
-cd ORG/
-ls
-cd ORG/
-ls
-cd ORG/
-LS
-ls
-ls
-ls
-chmod +x ts.sh 
-./ts.sh 
-./ts.sh 
-cd WorkSpace/
-cd dev-github
-ls
-cd virsh-completion/
-ls
-ls
-cp virsh-completion virsh-completion.$(date +%Y%m%d)
-ls
-ls
-cp virsh-completion virsh-completion.$(date +%Y%m%d)
-date
-cp virsh-completion virsh-completion.`date +%Y%m%d`
-ll
-date +%Y%m%d
-rm virsh-completion.Symbol\'s\ function\ definition\ is\ void:\ date 
-ls
-cp virsh-completion virsh-completion.20141013
-ls
-cd /home/lkong/WorkSpace/RH/libguestfs.autotest/client/tests/libguestfs
-ls
-ls
-s
-ls
-ls
-cd tests/
-ls
-grep -R augeas
-ls
-ls
-cd WorkSpace/
-cd RH
-cd libguestfs.autotest
-cd client/tests/libguestfs/
-ls
-git br
-ls
-ls
-cd (setq default-tab-width 4)
-cd /home/lkong/WorkSpace/RH/libguestfs.autotest/client/tests/libguestfs
-ls
-cd ORG/
-ls
-cd /home/lkong/WorkSpace/RH/libguestfs.autotest/client/tests/libguestfs
-ls
-ls
-cd /home/lkong/WorkSpace/RH/libguestfs.autotest/client/tests/libguestfs
-ls
-c
-ls tests/test-fs_attr_ops.sh 
-ls guestfs_tests.cfg 
-cd /home/lkong/WorkSpace/RH/libguestfs.autotest/client/tests/libguestfs/
-cd ORG/
 ls
 cd 
-cd WorkSpace/
-cd devcd dev
-cd /home/lkong/WorkSpace/RH/libguestfs.autotest/client/tests/libguestfs
-ls
-cd /home/lkong/WorkSpace/RH/libguestfs.autotest/client/tests/libguestfs
-ls
-ls
-cd /home/lkong/WorkSpace/RH/libguestfs.autotest/client/tests/libguestfs
-ls
-ls
-cd /home/lkong/WorkSpace/RH/libguestfs.autotest/client/tests/libguestfs
-ls
 ls
 cd ORG/
 ls
 cd emacs/
+ls
+ls
+cd Work/
+ls
+cd 
+cd WorkSpace/
+ls
+cd dev-github
+ls
+cd org-beamer-cn/
+ls
 cd ..
-cp EmacsKey.org  EmacsKey.org~
+ls
+cd org-beamer/
+ls
+ls
+pdftex org-beamer-template.org
+ls
+cd /home/lkong/WorkSpace/RH/libguestfs.autotest/client/tests/libguestfs
+ls
+ls
+cd 
+cd WorkSpace/
+ls
+cd dev-github
+cd libguestfs.test/
+ls
+cd format/
+ls
+cd -
+ls
+pwd
+cd 
+ls
+cd WorkSpace/
+cd RH
+cd libguestfs.autotest.read/
+ls
+cd client/tests/
+ls
+cd libguestfs/
+ls
+cd /home/lkong/WorkSpace/RH/libguestfs.autotest/client/tests/libguestfs
+pwd
+cd clie
+pwd
+ls
+pwd
+cd ORG/
+cd /home/lkong/WorkSpace/dev-github/orgbeamer/org-beamer
+ls
+cd 
+cd ORG/
+cd /home/lkong/WorkSpace/dev-github/orgbeamer/org-beamer
+ls
+cd ..
+ls
+cd org-slides-template/
+ls
+cd ..
+cd org-slides-template/
+ls
+cd ..
+ls
+cd org-beamer-template/
+ls
+cd ORG/
+cd 
+cd WorkSpace/
+ls
+cd dev-github
+cd org-beamer-cn/
+ls
+ls
+cd ..
+ls
 ls
 cd 
 ls
 cd ORG/
 ls
-ls
-cd /home/lkong/WorkSpace/dev-github/libguestfs.test
-ls
-cd format/
-cd ~/WorkSpace/dev-github/libguestfs.test/
-ls
-cd format/
-ls
-cd /home/lkong/WorkSpace/dev-github/libguestfs.test/format
-cd /home/lkong/WorkSpace/dev-github/libguestfs.test
-ls
+cp emacs.org  emacs.org~
+cp emacs.org e.org
 ls
 cd ORG/
 ls
-ls EmacsNote.org~
+cd 
 ls
-ls EmacsKey.org~
+cd WorkSpace/
+ls
+cd RH
+cd tt/
+ls
+cd libguestfs.autotest/
+cd client/tests/
+cd libguestfs/
+ls
+cd /home/lkong/WorkSpace/RH/tt/libguestfs.autotest/client/tests/libguestfs
+ls
+cd /home/lkong/WorkSpace/RH/tt/libguestfs.autotest
+ls
+cd client/tests/
+ls
+cd libguestfs/
+ls
+cd ORG/
+cd ORG/
+cat /tmp/111
+cat /tmp/1111 

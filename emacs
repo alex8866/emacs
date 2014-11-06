@@ -169,7 +169,7 @@
   '(2 "_NET_WM_STATE_FULLSCREEN" 0))
 )
 ;; let emacs to max frame
-(add-to-list 'load-path "~/.emacs.d/elpa/maxframe-20120725.639/")
+(add-to-list 'load-path "~/.emacs.d/elpa/maxframe-20140916.754/")
 (require 'maxframe)
 (add-hook 'window-setup-hook 'maximize-frame t)
 
@@ -187,7 +187,7 @@
 ;; transparent set
 (global-set-key [(f8)] 'loop-alpha)  ;;注意这行中的F8 , 可以改成你想要的按键
 
-(setq alpha-list '((80 55) (100 100)))
+(setq alpha-list '((85 55) (100 100)))
 
 (defun loop-alpha ()
   (interactive)
@@ -210,21 +210,21 @@
 ;; ============================== Python IDE Configure START ===============================
 
 ;; yasnippet
-(add-to-list 'load-path "~/.emacs.d/elpa/yasnippet-0.8.0/")
+(add-to-list 'load-path "~/.emacs.d/elpa/yasnippet-20141102.1554/")
 (require 'yasnippet)
 (yas-global-mode 1)
 
 ;; auto-completion.el
-(add-to-list 'load-path "~/.emacs.d/elpa/popup-20140815.629/")
+(add-to-list 'load-path "~/.emacs.d/elpa/popup-20141002.320/")
 (require 'popup)
 
-(add-to-list 'load-path "~/.emacs.d/elpa/auto-complete-20140824.1658/")
+(add-to-list 'load-path "~/.emacs.d/elpa/auto-complete-20141103.105/")
 (require 'auto-complete-config)
-(add-to-list 'ac-dictionary-directories "~/.emacs.d/elpa/auto-complete-20140824.1658/dict/")
+(add-to-list 'ac-dictionary-directories "~/.emacs.d/elpa/auto-complete-20141103.105/dict/")
 (ac-config-default)
 
 ;; python-mode
-(add-to-list 'load-path "~/.emacs.d/elpa/python-mode-6.1.3")
+(add-to-list 'load-path "~/.emacs.d/elpa/python-mode.el-6.1.3/")
 (require 'python-mode)
 
 ;; ipython
@@ -255,8 +255,10 @@
 ;; python document -- end
 
 ;; anything
-(add-to-list 'load-path "~/.emacs.d/elpa/anything-config-0.4.1/")
+;;(add-to-list 'load-path "~/.emacs.d/elpa/anything-config-0.4.1/")
 ;;(require 'anything-config)
+(require 'anything)
+;;(require 'anything-ipython)
 ;;(add-to-list 'load-path "~/.emacs.d/elpa/anything-ipython-0.1.2009/")
 ;;(require 'anything-ipython)
 ;;(when (require 'anything-show-completion nil t)
@@ -327,6 +329,9 @@
 
 ;; ============================== ECB Configure START  ===============================
 (add-to-list 'load-path "~/.emacs.d/elpa/ecb-20140215.114/")
+(semantic-mode 1)
+(add-hook 'ecb-before-activate-hook
+   (lambda () (semantic-mode 1)))
 (setq ecb-tip-of-the-day nil)
 (require 'ecb)
 (require 'ecb-autoloads)
@@ -408,6 +413,7 @@
  )
 
 ;; ============================ Org-mode Configure START =================================
+(setq load-path (cons "~/.emacs.d/elpa/org-20141103" load-path))
 (require 'org-install)
 (require 'org-publish)
 (add-to-list 'auto-mode-alist '("\\.org\\'" . org-mode))
@@ -501,3 +507,59 @@
 
 
 ;; ============================ Bugzilla Configure END ==================================
+
+;; solve org export bug
+;;(custom-set-variables
+ ;; custom-set-variables was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+;;'(org-export-backends (quote (ascii html icalendar latex md))))
+
+;; set code eve
+; Must have org-mode loaded before we can configure org-babel
+(require 'org-install)
+
+; Some initial langauges we want org-babel to support
+(org-babel-do-load-languages
+ 'org-babel-load-languages
+ '(
+   (sh . t)
+   (python . t)
+   (R . t)
+   (ruby . t)
+   (ditaa . t)
+   (dot . t)
+   (octave . t)
+   (sqlite . t)
+   (perl . t)
+   ))
+
+; Add short cut keys for the org-agenda
+(global-set-key "\C-cl" 'org-store-link)
+(global-set-key "\C-cc" 'org-capture)
+(global-set-key "\C-ca" 'org-agenda)
+
+(add-to-list 'load-path "~/.emacs.d/elpa/org-present-20140525.901/")
+(autoload 'org-present "org-present" nil t)
+
+(add-hook 'org-present-mode-hook
+          (lambda ()
+            (org-present-big)
+            (org-display-inline-images)))
+
+(add-hook 'org-present-mode-quit-hook
+          (lambda ()
+            (org-present-small)
+            (org-remove-inline-images)))
+
+;; muse
+(add-to-list 'load-path "~/.emacs.d/elpa/muse")
+(add-to-list 'load-path "~/.emacs.d/elpa/muse/lisp/")
+(require 'muse-mode)
+(require 'muse-slidy)
+
+(add-to-list 'load-path "~/.emacs.d/plugins/org-reveal")
+(require 'ox-reveal)
+(setq org-reveal-root "file:///home/lkong/.emacs.d/plugins/reveal.js-2.6.2/")
+(setq org-reveal-hlevel 1)
